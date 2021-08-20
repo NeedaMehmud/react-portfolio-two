@@ -48,8 +48,7 @@ const Header = () => {
           strings={[
             "Frontend Developer",
             "Automation Engineer",
-            "Mother",
-            "Caretaker",
+            "A Proud Mom",
           ]}
           typeSpeed={40}
           backSpeed={50}

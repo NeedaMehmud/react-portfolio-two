@@ -10,12 +10,13 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-import project1 from "../images/src/images/html-css-javascript.jpg";
-import project2 from "../images/src/images/password-generator.jpg";
-import project3 from "../images/src/images/schedule.jpg";
-import project4 from "../images/src/images/weather-dashboard.jpg";
-import project5 from "../images/src/images/fido.jpg";
-import project6 from "../images/src/images/revised-portfolio.jpg";
+import project1 from "../images/html-css-javascript.jpg";
+import project2 from "../images/password-generator.jpg";
+import project3 from "../images/schedule.jpg";
+import project4 from "../images/weather-dashboard.jpg";
+import project5 from "../images/fido.jpg";
+import project6 from "../images/revised-portfolio.jpg";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     mainContainer: {
@@ -95,10 +96,14 @@ const Portfolio = () => {
                                 </CardContent>
                             </CardActionArea>
                             <CardActions>
-                                <Button size="small" color="primary">
-                                    Share
+                                <Link to="https://www.linkedin.com/">
+                                    <Button size="small" color="primary">
+                                        Share
+
                 </Button>
-                                <Button size="small" color="primary">
+                                </Link>
+
+                                <Button size="small" color="primary" name="Project 1" to="www.google.com">
                                     Live Demo
                 </Button>
                             </CardActions>
