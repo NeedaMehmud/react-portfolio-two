@@ -31,38 +31,38 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
     {
-        name: "Project 1",
+        name: "CSS HTML Portfolio",
         description: `Portfolio created with CSS and HTML.
     All button are functional with sticky nav-bar and footer with
     mini projects on Github.`,
         image: project1,
     },
     {
-        name: "Project 2",
+        name: "Password Generator",
         description: `Application that enables employees to
     generate random passwords based on criteria that they’ve selected`,
         image: project2,
     },
     {
-        name: "Project 3",
+        name: "Scheduler",
         description: `A simple calendar application that
     allows a user to save events for each hour of the day by modifying starter code.`,
         image: project3,
     },
     {
-        name: "Project 4",
+        name: "Weather Dashboard",
         description: `A weather dashboard that will run in
     the browser and feature dynamically updated HTML and CSS.`,
         image: project4,
     },
     {
-        name: "Project 5",
+        name: "Fido Friendly",
         description: `The website uses OMDB and Does the Dog
     Die APIs to provide the information in a user friendly way.`,
         image: project5,
     },
     {
-        name: "Project 6",
+        name: "Revised Portfolio",
         description: `This is a revised portfolio using
     Bootstrap, CSS, HTML and JavaScript. The original portfolio was created using CSS and
     HTML.`,
@@ -96,13 +96,9 @@ const Portfolio = () => {
                                 </CardContent>
                             </CardActionArea>
                             <CardActions>
-                                <Link to="https://www.linkedin.com/">
-                                    <Button size="small" color="primary">
-                                        Share
-
+                                <Button size="small" color="primary" >
+                                    Share
                 </Button>
-                                </Link>
-
                                 <Button size="small" color="primary" name="Project 1" to="www.google.com">
                                     Live Demo
                 </Button>
