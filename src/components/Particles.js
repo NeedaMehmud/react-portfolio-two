@@ -1,5 +1,5 @@
 import React from "react";
-import { Particles as ReactParticles } from "react-particles-js";
+import { tsParticles } from "tsparticles";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
@@ -13,7 +13,7 @@ const Particles = () => {
     const classes = useStyles();
 
     return (
-        <ReactParticles
+        <tsParticles
             canvasClassName={classes.particlesCanvas}
             params={{
                 particles: {
